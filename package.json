@@ -10,7 +10,7 @@
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "npm": "^2.0.0-beta.0",
+    "npm": "^2.0.0-beta.1",
     "npm-which": "^1.0.1"
   }
 }

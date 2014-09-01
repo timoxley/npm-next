@@ -5,11 +5,14 @@
   "main": "index.js",
   "bin": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "npm": "~2.0.0-beta.2"
+  },
+  "devDependencies": {
+    "tape": "~2.14.0"
   }
 }

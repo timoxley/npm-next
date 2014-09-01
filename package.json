@@ -3,7 +3,9 @@
   "version": "3.0.0",
   "description": "wraps the latest version of npm for testing",
   "main": "index.js",
-  "bin": "bin/index.js",
+  "bin": {
+    "npm-next": "bin/index.js"
+  },
   "scripts": {
     "test": "tape test.js"
   },
@@ -14,5 +16,22 @@
   },
   "devDependencies": {
     "tape": "~2.14.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timoxley/npm-next.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/npm-next/issues"
+  },
+  "homepage": "https://github.com/timoxley/npm-next",
+  "keywords": [
+    "npm",
+    "beta",
+    "alpha",
+    "version",
+    "semver",
+    "testing",
+    "test"
+  ]
 }

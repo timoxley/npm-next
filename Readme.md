@@ -18,7 +18,7 @@ npm install -g npm-next
 
 ```
 > npm-next -v
-2.0.0-beta.0
+2.0.0-beta.3
 > npm-next install
 > npm-next search
 # etc

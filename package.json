@@ -7,7 +7,8 @@
     "npm-next": "bin/index.js"
   },
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "start": "npm test || npm install --save npm@next"
   },
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",

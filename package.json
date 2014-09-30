@@ -13,7 +13,7 @@
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "npm": "~2.1.0"
+    "npm": "~2.1.2"
   },
   "devDependencies": {
     "tape": "~2.14.0"

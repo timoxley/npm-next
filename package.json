@@ -10,7 +10,7 @@
     "test": "tape test.js",
     "start": "npm test || npm run selfupdate",
     "selfupdate": "npm install --save npm@next --cache-min=0 && npm run commit",
-    "commit": "git add . && git commit -m 'Upgrade to npm@`npm info npm@next version --cache-min=Infinity`'"
+    "commit": "export NPM_VERSION=$(npm info npm@next version --cache-min=Infinity); git add . && git commit -m \"Upgrade to npm@$NPM_VERSION\""
   },
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "npm-next",
-  "version": "18.0.0",
+  "version": "19.0.0",
   "description": "wraps the latest version of npm for testing",
   "main": "index.js",
   "bin": {

@@ -16,11 +16,16 @@ npm install -g npm-next
 
 ```
 > npm-next -v
-2.0.0-beta.3
+3.3.4 # will change based on current 'next' version
 > npm-next install
 > npm-next search
 # etc
 ```
+
+## See Also
+
+* [npm-prev](https://github.com/timoxley/npm-prev)
+* [npm3](https://github.com/timoxley/npm3)
 
 # License
 

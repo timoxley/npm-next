@@ -1,6 +1,6 @@
 {
   "name": "npm-next",
-  "version": "33.0.0",
+  "version": "33.0.1",
   "description": "wraps the latest version of npm for testing",
   "main": "index.js",
   "bin": {

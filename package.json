@@ -7,10 +7,9 @@
     "npm-next": "bin/index.js"
   },
   "scripts": {
-    "test": "tape test.js",
-    "start": "npm test || npm run selfupdate",
-    "selfupdate": "npm install --save npm@next --cache-min=0 && npm run commit",
-    "commit": "export NPM_VERSION=$(npm info npm@next version --cache-min=Infinity); git add . && git commit -m \"Upgrade to npm@$NPM_VERSION\""
+    "test": "npm run lint && tape test.js",
+    "lint": "standard",
+    "start": "npm install --cache-min=0 npm@next && npm test"
   },
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",
@@ -18,6 +17,7 @@
     "npm": "next"
   },
   "devDependencies": {
+    "standard": "^8.6.0",
     "tape": "~2.14.0"
   },
   "repository": {
